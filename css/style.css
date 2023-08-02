@@ -1,0 +1,65 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(../img/bg-tec.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+}
+
+#box{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 540px;
+    padding: 10px 20px 30px 30px;
+    margin-top: 130px;
+    border-radius: 25px;   
+}
+
+.nome{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coluna{
+    flex-direction: column;
+}
+
+label{
+    margin-left: 20px;
+}
+
+
+
+input:not(#btt){
+    display: block;
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+#btt{
+    margin: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 258px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #551e4f;
+    color: #fff;
+    border: 2px solid #000;
+    transition: 0.5s;
+}
+
+#btt:hover{
+    background-color: rgb(36, 5, 50);
+    transition: 0.5s;
+    font-size: 16px;
+}
